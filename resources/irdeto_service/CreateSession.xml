@@ -1,0 +1,15 @@
+<Session
+    SessionId="D13A5D795{{ request.query.get('SessionTime') }}"
+    Ticket="BF8187DF732DF057"
+    AgentHost="man" AgentId="man"
+    CrmId="{{ request.query.get('CrmId') }}" UserId="{{ request.query.get('UserId') }}"
+    UserIp="0.0.0.0" PGRate="0" Country="01"
+    IpCountryConfidence="0" NetworkId="" DeviceId=""
+    AffiliateId=""
+    CreateTime="{{ "now"|date("m/d/Y h:i:s A") }}"
+    ExpTime="{{ "+1 month"|date("m/d/Y h:i:s A") }}"
+    NoStreams="0" MaxStreams="2"
+    LeadId="" Error="0"
+    MANRoamingSession="U2Vzc2lvbklkPUQxM0E1RDc5NThEMDM0NTQmVGlja2V0PUJGODE4N0RGNzMyREYwNTcmVXNlclJlZj02NiZDb3VudHJ5PTAxJlRpbWVTdGFtcD0xNDU2ODUyNjAxJkV4cFRpbWU9MTQ1OTQ0NDYwMSZDcm1JZD1zYnMmU2lnbmF0dXJlPSUyQmVXMFlsQUkyMklLUHRIU1pGbmc0bnA4WFdHNjMlMkJmYUMzRVlieGhCUmxRJTNE" >
+    <RegionInfo />
+</Session>

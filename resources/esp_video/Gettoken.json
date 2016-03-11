@@ -1,0 +1,14 @@
+{
+  "ActiveUserRef": null,
+  "PlayerObj": {
+    "expiretimeinseconds": 600,
+    "expiretimestamp": {{ date().timestamp  }},
+    "starttimestamp": {{ date("+1 hour").timestamp  }},
+    "token": "{{ request }}"
+  },
+  "Response": {
+    "LangId": 0,
+    "ResponseCode": 4,
+    "ResponseMessage": "DplayAPI.GetToken - Return success"
+  }
+}

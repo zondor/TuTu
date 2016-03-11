@@ -1,0 +1,9 @@
+<?xml version="1.0"?>\n
+<AuthorizationList Version="2">
+    <Authorization
+        AccountID="sbs"
+        ContentId="SE958350521527_1.mp4_3e20797d-17a1-4a25-a765-85f147d18cd7_c4d7009a-02b6-9d6c-93a5-78f4f1030ce9_playReady_hls"
+        Begin="{{ "now"|date("Y-m-dTH:i:s") }}"
+        End="{{ "+1 day"|date("Y-m-dTH:i:s") }}"
+        OptionId="2"/>
+    </AuthorizationList>

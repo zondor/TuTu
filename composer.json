@@ -18,15 +18,6 @@
         "coduo/tutu-faker-extension": "1.0.*@dev",
         "coduo/tutu-twig-extension": "1.0.*@dev"
     },
-    "require-dev": {
-        "behat/behat": "3.0.*",
-        "behat/mink-extension": "~2.0@dev",
-        "behat/mink-goutte-driver": "~1.0@dev",
-        "phpspec/phpspec": "2.0.*",
-        "symfony/filesystem": "~2.3",
-        "symfony/process": "~2.3",
-        "bossa/phpspec2-expect": "dev-master"
-    },
     "replace": {
         "coduo/tutu-core": "self.version"
     },
