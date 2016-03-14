@@ -1,5 +1,5 @@
 {
-    "name": "coduo/tutu",
+    "name": "zondor/tutu",
     "license": "MIT",
     "type": "project",
     "description": "TuTu - simple HTTP server mocking tool in PHP.",
