@@ -4,13 +4,11 @@ use Coduo\TuTu\Kernel;
 use Coduo\TuTu\ServiceContainer;
 use Symfony\Component\HttpFoundation\Request;
 
-if (is_file($autoload = getcwd() . '/vendor/autoload.php')) {
-    require $autoload;
-}
+
 
 if (is_file($autoload = __DIR__ . '/vendor/autoload.php')) {
     require($autoload);
-} elseif (is_file($autoload = __DIR__ . '/../../../autoload.php')) {
+} elseif (is_file($autoload = __DIR__ . '/../../../vendor/autoload.php')) {
     require($autoload);
 } else {
     header("Content-Type:text/plain");
@@ -22,7 +20,7 @@ if (is_file($autoload = __DIR__ . '/vendor/autoload.php')) {
 }
 
 $container = new ServiceContainer();
-$container->setParameter('tutu.root_path', realpath(__DIR__));
+$container->setParameter('tutu.root_path', realpath($_SERVER['DOCUMENT_ROOT']));
 $kernel = new Kernel($container);
 $request = Request::createFromGlobals();
 
